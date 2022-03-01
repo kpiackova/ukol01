@@ -1,9 +1,11 @@
-h2 {
-    font-size: 40px;
-    font-weight: 300;    
-    color: #65768C;
-    margin-top: 0;
+.menu li {
+    display: inline-block;
+}
 
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color:#282425;
 }
 
 body {
@@ -12,6 +14,17 @@ body {
     line-height: 1.5;
     font-family: 'League Spartan', sans-serif;
     margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 300;    
+    color: #65768C;
+    margin-top: 0;
 }
 
 li {
@@ -24,17 +37,31 @@ li {
 
 section {
     padding: 50px 15%;
+    overflow: auto;
+	}
+
+
+.prace,
+.znalosti {
+    background-color: #A6A198;
 }
 
-.vzdelani,
-.zaliby {
-    background-color: #A6A198;
+img {
+    width: 300px;
+}
+
+.foto-ja {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 40px 40px 0;
 }
 
 .paticka {
     color: ivory;
     background-color: #282425;
     text-align: center;
+    padding: 20px 0;
    
 
 }
