@@ -1,31 +1,58 @@
+.hlavicka {
+    background-color:#F2EEE9;
+    padding: 40px;
+}
+
 .menu li {
     display: inline-block;
-}
+    }
 
 .menu a {
     display: inline-block;
     text-decoration: none;
     color:#282425;
+    padding: 20px 40px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:#F2EEE9;
 }
 
 body {
-    color: #282425;
-    font-size: 20px;
+    color:#282425;
+    font-size: 18px;
     line-height: 1.5;
     font-family: 'League Spartan', sans-serif;
     margin: 0;
 }
 
+section {
+    padding: 25px 20%;
+    overflow: auto;
+    background-color:#BFB0A3;
+}
+
 h1 {
     font-size: 50px;
+    text-align: center;
+    margin: 0;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 300;    
     color: #65768C;
     margin-top: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+
 
 li {
     font-weight: bold;
@@ -35,15 +62,8 @@ li {
     font-weight: normal;
 }
 
-section {
-    padding: 50px 15%;
-    overflow: auto;
-	}
-
-
-.prace,
-.znalosti {
-    background-color: #A6A198;
+.znalosti ul {
+    column-count: 2;
 }
 
 img {
@@ -62,7 +82,5 @@ img {
     background-color: #282425;
     text-align: center;
     padding: 20px 0;
-   
-
 }
 
