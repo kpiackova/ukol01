@@ -46,6 +46,10 @@ section {
     overflow: auto;
 }
 
+.prace {
+    margin-top: 50px;
+}
+
 .omne,
 .kontakt {
     background-color: #BFB0A3;
