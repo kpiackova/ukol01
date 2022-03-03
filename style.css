@@ -3,6 +3,13 @@
     padding: 40px;
 }
 
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:#F2EEE9;
+}
+
 .menu li {
     display: inline-block;
     }
@@ -14,15 +21,20 @@
     padding: 20px 40px;
 }
 
-.menu {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color:#F2EEE9;
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    color:#65768C;
+    background-color:#BFB0A3;
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
     color:#282425;
+    background-color:#F2EEE9;
     font-size: 18px;
     line-height: 1.5;
     font-family: 'League Spartan', sans-serif;
@@ -32,7 +44,11 @@ body {
 section {
     padding: 25px 20%;
     overflow: auto;
-    background-color:#BFB0A3;
+}
+
+.omne,
+.kontakt {
+    background-color: #BFB0A3;
 }
 
 h1 {
@@ -48,12 +64,6 @@ h2 {
     margin-top: 0;
 }
 
-a {
-    text-decoration: none;
-}
-
-
-
 li {
     font-weight: bold;
 }
@@ -66,8 +76,8 @@ li {
     column-count: 2;
 }
 
-img {
-    width: 300px;
+.fotky img {
+    width: 49.5%;
 }
 
 .foto-ja {
@@ -81,6 +91,6 @@ img {
     color: ivory;
     background-color: #282425;
     text-align: center;
-    padding: 20px 0;
+    padding: 12px 0;
 }
 
